@@ -17,7 +17,7 @@ __SYD.container = () =>{
     return __c(
         "div",
         {
-            style:`min-height:100vh;width:100vw;background:${SYD_VAR.mainClr.get()};font-family:font2;`
+            style:`min-height:100vh;width:100vw;background:${SYD_VAR.mainClr.get()};font-family:font2;font-size:18px;`
         },
         [
             // __SYD.navBar(),

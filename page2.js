@@ -4,7 +4,7 @@ __SYD.p2 = () =>{
     return __c(
         "div",
         {
-            style:"height:700px;width:100%;display:flex;justify-content:center;background:transparent;margin-top:60px;border-bottom:4px solid #b1a16d;padding:5px;" + __sC['pages']() + "padding:20px;",
+            style:"height:fit-content;min-height:700px;width:100%;display:flex;justify-content:center;background:transparent;margin-top:30px;border-bottom:4px solid #b1a16d;padding:5px;" + __sC['pages']() + "padding:20px;",
             id:"p2"
         },
         [
@@ -35,7 +35,7 @@ __SYD.p2SubHeader = () =>{
             __c(
                 "div",
                 {
-                    style:`height:100%;width:50%;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/about.png")`
+                    style:`height:700px;width:50%;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/about.png")`
                 },[],{genericStyle:["bg_fit"]}
             )
         ],
@@ -104,7 +104,7 @@ __SYD.p2_text3 = () =>{
     return __c(
         "div",
         {
-            style:SYD_VAR.page2Text3.get() + "font-weight:900;color:#ffffff;font-size:16px;"
+            style:SYD_VAR.page2Text3.get() + "font-weight:900;color:#ffffff;font-size:20px;"
         },
         [
             __c(
@@ -119,7 +119,7 @@ __SYD.p2_text4 = () =>{
     return __c(
         "div",
         {
-            style:SYD_VAR.page2Text3.get() + "font-weight:900;color:#ffffff;font-size:16px;"
+            style:SYD_VAR.page2Text3.get() + "font-weight:900;color:#ffffff;font-size:20px;"
         },
         [
             __c(

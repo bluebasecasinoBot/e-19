@@ -4,7 +4,7 @@ __SYD.p1 = () =>{
     return __c(
         "div",
         {
-            style:`height:700px;width:100%;min-height:fit-content;display:flex;justify-content:center;background-attachment:fixed;border-bottom:4px solid #b1a16d;padding:20px;`,
+            style:`height:1000px;width:100%;min-height:fit-content;display:flex;justify-content:center;background-attachment:fixed;border-bottom:4px solid #b1a16d;padding:20px;`,
             id:"p1"
         },
         [
@@ -17,7 +17,7 @@ __SYD.p1SubHeader = () =>{
     return  __c(
         "div",
         {
-            style:`height:100%;width:100%;max-width:1300px;display:flex;align-items:flex-start;padding:0 ${__p(["p1SubHeader" , "mobilePadState"],false) ? "0px" : "0px"};flex-direction:${__p(["p1SubHeader" , "breakVal"],false) ? "row-reverse" : "row-reverse"}`
+            style:`height:100%;width:100%;max-width:unset;display:flex;justify-content:space-between;align-items:center;padding:0 ${__p(["p1SubHeader" , "mobilePadState"],false) ? "0px" : "0px"};flex-direction:${__p(["p1SubHeader" , "breakVal"],false) ? "row-reverse" : "row-reverse"}`
         },
         [
             __c(
@@ -49,14 +49,22 @@ __SYD.p1SubHeader = () =>{
                     __c(
                         "div",
                         {
-                            style:"display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:center;"
+                            style:"display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:center;position:relative;"
                         },
                         [
                             __SYD.buy_icons({icon:"sol.png"}),
                             __SYD.buy_icons({icon:"dex.png"}),
                             __SYD.buy_icons({icon:"dex-tools.png"}),
-                            __SYD.buy_icons({icon:"coin-gecko.png"}),
-                            __SYD.buy_icons({icon:"coin-market.png"})
+                            __c(
+                                "div",
+                                {
+                                    style:"height:fit-content;width:fit-content;display:flex;gap:10px;position:absolute;top:0;left:0;transform:translateX(calc(-100% - 120px));"
+                                },
+                                [
+                                    __SYD.buy_icons({icon:"coin-gecko.png"}),
+                                    __SYD.buy_icons({icon:"coin-market.png"})
+                                ]
+                            )
                         ]
                     )
                 ]
@@ -64,7 +72,7 @@ __SYD.p1SubHeader = () =>{
             __c(
                 "div",
                 {
-                    style:`height:100%;width:50%;border:2px solid green;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/logo.png");border:4px solid #e2d095;border-left:unset;border-top:unset;border-radius:40px;background-color:#ffffff`,
+                    style:`height:100%;width:50%;border:2px solid green;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/logo.png");border:4px solid transparent;border-left:unset;border-top:unset;border-radius:40px;background-color: #171717 ;`,
                     // class:"floatMainPic"
                 },[],{genericStyle:['bg_fit']}
             )

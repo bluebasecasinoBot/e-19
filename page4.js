@@ -4,7 +4,7 @@ __SYD.p4 = () =>{
     return __c(
         "div",
         {
-            style:"height:700px;width:100%;display:flex;justify-content:center;background:transparent;margin-top:60px;border-bottom:4px solid #b1a16d;padding:5px;" + __sC['pages']() + "padding:20px;",
+            style:"height:700px;width:100%;display:flex;justify-content:center;background:transparent;margin-top:30px;border-bottom:4px solid #b1a16d;padding:5px;" + __sC['pages']() + "padding:20px;",
             id:"p4"
         },
         [
@@ -127,7 +127,7 @@ __SYD.p4_tab_el = ({title , contents = []}) =>{
                         const elArray = [];
                         contents.forEach(val =>{
                             elArray.push(
-                                __c("li",{style:"font-size:14px;font-weight:900;color:#fff;"},[val])
+                                __c("li",{style:"font-size:18px;font-weight:900;color:#fff;"},[val])
                             )
                         })
                         return elArray
