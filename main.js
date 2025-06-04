@@ -58,6 +58,6 @@ __m(__SYD.container() , ()=>{
         })
     }
 
-    window.addEventListener('resize', scaleToFit);
-    window.addEventListener('load', scaleToFit);
+    // window.addEventListener('resize', scaleToFit);
+    // window.addEventListener('load', scaleToFit);
 });

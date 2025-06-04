@@ -64,7 +64,7 @@ __SYD.p1SubHeader = () =>{
             __c(
                 "div",
                 {
-                    style:`height:100%;width:50%;border:2px solid green;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/logo.png");border:4px solid grey;border-left:unset;border-top:unset;border-radius:40px;background-color:#ffffff`,
+                    style:`height:100%;width:50%;border:2px solid green;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/logo.png");border:4px solid #e2d095;border-left:unset;border-top:unset;border-radius:40px;background-color:#ffffff`,
                     // class:"floatMainPic"
                 },[],{genericStyle:['bg_fit']}
             )

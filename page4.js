@@ -35,7 +35,7 @@ __SYD.p4SubHeader = () =>{
             __c(
                 "div",
                 {
-                    style:`height:100%;width:50%;display:flex;flex-direction:column;gap:20px;border:1px solid green;background-image:url("./assets/about.png")`
+                    style:`height:100%;width:50%;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/logo.png");`
                 },[],{genericStyle:["bg_fit"]}
             ),
         ],

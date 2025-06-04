@@ -50,7 +50,7 @@ p::-webkit-scrollbar-track
 .p2_tab
 {
     position: relative;
-    border-right: 3px solid grey;
+    border-right: 4px solid #e2d095;
 }
 .p2_tab::before{
     position: absolute;
@@ -63,7 +63,7 @@ p::-webkit-scrollbar-track
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background:#0e1318;
-    border-top: 3px solid grey;
+    border-top: 4px solid #e2d095;
 }
 .p2_tab::after{
     position: absolute;
@@ -76,7 +76,7 @@ p::-webkit-scrollbar-track
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     background:#0e1318;
-    border-bottom: 3px solid grey;
+    border-bottom: 4px solid #e2d095;
 }
 .buy_tabs
 {
