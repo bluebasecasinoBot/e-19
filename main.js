@@ -54,10 +54,10 @@ __m(__SYD.container() , ()=>{
 
         Array.from(__v["container"].children).forEach(elem =>{
             console.log(scale < .5 ? .5 : scale)
-            elem.style.transform = `scale(${scale < .8 ? .8 : scale})`;
+            elem.style.transform = `scale(${scale > 1 ? 1 : scale})`;
         })
     }
 
-    // window.addEventListener('resize', scaleToFit);
-    // window.addEventListener('load', scaleToFit);
+    window.addEventListener('resize', scaleToFit);
+    window.addEventListener('load', scaleToFit);
 });
