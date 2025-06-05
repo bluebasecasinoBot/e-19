@@ -36,7 +36,7 @@ __SYD.p2SubHeader = () =>{
                 "div",
                 {
                     style:`height:700px;width:50%;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/about.png")`
-                },[],{genericStyle:["bg_fit"]}
+                },[],{genericStyle:["bg_cover"]}
             )
         ],
         {

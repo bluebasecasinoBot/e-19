@@ -30,17 +30,17 @@ __SYD.footer_main_parent = () =>{
                     style:'display:flex;padding:10px;justify-content:center;align-items:center;flex-direction:column;gap:10px;'
                 },
                 [
-                    __c(
-                        "div",
-                        {
-                            style:""
-                        },
-                        [
-                            __c("p" , {style:"color:#fff;font-weight:900;width:100%;max-width:unset;text-align:center;font-size:20px;"},[
-                                `Moonpig is a meme coin. It is not a financial instrument, and you should not mortgage your spaceship to buy it. Prices may go up, down, sideways, or enter a black hole. This is a community-powered project rooted in humor and creativity. Do your own research, not financial advice.`
-                            ])
-                        ]
-                    ),
+                    // __c(
+                    //     "div",
+                    //     {
+                    //         style:""
+                    //     },
+                    //     [
+                    //         __c("p" , {style:"color:#fff;font-weight:900;width:100%;max-width:unset;text-align:center;font-size:20px;"},[
+                    //             `Moonpig is a meme coin. It is not a financial instrument, and you should not mortgage your spaceship to buy it. Prices may go up, down, sideways, or enter a black hole. This is a community-powered project rooted in humor and creativity. Do your own research, not financial advice.`
+                    //         ])
+                    //     ]
+                    // ),
                     __SYD.text_lib_type_p_glob_vmax({cnt:`© ${new Date().getFullYear()} All Right Reserved`,size:'16px',clr:'#fff' , inject:"font-weight:900;"})
                 ]
             )

@@ -4,7 +4,7 @@ __SYD.p1 = () =>{
     return __c(
         "div",
         {
-            style:`height:1000px;width:100%;min-height:fit-content;display:flex;justify-content:center;background-attachment:fixed;border-bottom:4px solid #b1a16d;padding:20px;`,
+            style:`height:800px;width:100%;min-height:fit-content;display:flex;justify-content:center;background-attachment:fixed;border-bottom:4px solid #b1a16d;padding:20px;`,
             id:"p1"
         },
         [
@@ -17,54 +17,51 @@ __SYD.p1SubHeader = () =>{
     return  __c(
         "div",
         {
-            style:`height:100%;width:100%;max-width:unset;display:flex;justify-content:space-between;align-items:center;padding:0 ${__p(["p1SubHeader" , "mobilePadState"],false) ? "0px" : "0px"};flex-direction:${__p(["p1SubHeader" , "breakVal"],false) ? "row-reverse" : "row-reverse"}`
+            style:`height:100%;width:100%;max-width:unset;display:flex;justify-content:flex-start;position:relative;align-items:center;gap:50px;padding:0 ${__p(["p1SubHeader" , "mobilePadState"],false) ? "0px" : "0px"};flex-direction:${__p(["p1SubHeader" , "breakVal"],false) ? "column" : "column"}`
         },
         [
             __c(
                 "div",
                 {
-                    style:`height:100%;width:50%;display:flex;flex-direction:column;gap:20px;align-items:center;justify-content:space-around;`
+                    style:"height:fit-content;width:fit-content;display:flex;gap:20px;position:absolute;bottom:10px;left:50%;transform:translateX(-50%);"
                 },
                 [
-                    __SYD.p1_mainHeader(),
+                    __SYD.buy_icons({icon:"coin-gecko.png"}),
+                    __SYD.buy_icons({icon:"coin-market.png"}),
+                    __SYD.buy_icons({icon:"sol.png"}),
+                    __SYD.buy_icons({icon:"dex.png"}),
+                    __SYD.buy_icons({icon:"dex-tools.png"}),
+                ]
+            ),
+            __c(
+                "div",
+                {
+                    style:"height:55%;width:100%;display:flex;gap:20px;"
+                },
+                [
                     __c(
                         "div",
                         {
-                            style:"display:flex;justify-content:center;flex-direction:column;gap:20px;align-items:center;"
-                        },
-                        [
-                            __SYD.p1_CA_section(),
-                            __c(
-                                "div",
-                                {
-                                    style:"display:flex;flex-direction:row;gap:15px;"
-                                },
-                                [
-                                    __SYD.desktopNav_button_x(),
-                                    __SYD.desktopNav_button_tg()
-                                ]
-                            ),
-                        ]
+                            style:`height:100%;width:45%;border:2px solid green;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/logo_p1.png");border:1px solid transparent;border-left:unset;border-top:unset;border-radius:40px;background-position:center;`,
+                            // class:"floatMainPic"
+                        },[],{genericStyle:['bg_fit']}
                     ),
                     __c(
                         "div",
                         {
-                            style:"display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:center;position:relative;"
+                            style:`height:100%;width:55%;display:flex;flex-direction:column;gap:20px;align-items:center;justify-content:flex-start;gap:60px;`
                         },
                         [
-                            __SYD.buy_icons({icon:"sol.png"}),
-                            __SYD.buy_icons({icon:"dex.png"}),
-                            __SYD.buy_icons({icon:"dex-tools.png"}),
+                            __SYD.p1_mainHeader(),
                             __c(
                                 "div",
                                 {
-                                    style:"height:fit-content;width:fit-content;display:flex;gap:10px;position:absolute;top:0;left:0;transform:translateX(calc(-100% - 120px));"
+                                    style:"display:flex;justify-content:center;flex-direction:column;gap:55px;align-items:center;"
                                 },
                                 [
-                                    __SYD.buy_icons({icon:"coin-gecko.png"}),
-                                    __SYD.buy_icons({icon:"coin-market.png"})
+                                    __SYD.p1_CA_section(),
                                 ]
-                            )
+                            ),
                         ]
                     )
                 ]
@@ -72,26 +69,29 @@ __SYD.p1SubHeader = () =>{
             __c(
                 "div",
                 {
-                    style:`height:100%;width:50%;border:2px solid green;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/logo.png");border:4px solid transparent;border-left:unset;border-top:unset;border-radius:40px;background-color: #171717 ;`,
-                    // class:"floatMainPic"
-                },[],{genericStyle:['bg_fit']}
-            )
+                    style:"display:flex;flex-direction:row;gap:15px;"
+                },
+                [
+                    __SYD.desktopNav_button_x(),
+                    __SYD.desktopNav_button_tg()
+                ]
+            ),
         ],
         {
             createState:{
                 stateName:"p1SubHeader",
                 state:{
                     mobilePadState:false,
-                    caTextSize:"16px",
+                    caTextSize:"24px",
                     breakVal:false
                 }
             },
             mediaQuery:{
                 query:[
-                    {size:"<500px" , prop:{mobilePadState:true , caTextSize:"13px"}},
+                    {size:"<500px" , prop:{mobilePadState:true , caTextSize:"20px"}},
                     {size:"<1000px" , prop:{breakVal:true}}
                 ],
-                defState:{mobilePadState:false , caTextSize:"16px" , breakVal:false}
+                defState:{mobilePadState:false , caTextSize:"24px" , breakVal:false}
             }
         }
     )
@@ -105,7 +105,7 @@ __SYD.p1_mainHeader = () =>{
             text-transform:uppercase;font-weight:900;font-size:${SYD_VAR.page1MainFont_1.get()};color:#ffffff;font-family:font1;text-align:center;display:flex;justify-content:center;align-items:center;`
         },
         [
-            __c("p" , {style:"max-width:500px;text-align:center;"} , ["Extractor-91"])
+            __c("p" , {style:"width:100%;text-align:center;"} , ["Extractor-91"])
         ]
     )
 }
@@ -138,7 +138,7 @@ __SYD.p1_CA_section = () =>{
             __c(
                 "div",
                 {
-                    style:`font-weight:900;font-size:${__p(["p1SubHeader" , "caTextSize"],"16px")};color:#fff;`
+                    style:`font-weight:900;font-size:${__p(["p1SubHeader" , "caTextSize"],"24px")};color:#fff;width:100%;overflow:hidden;text-align:center;white-space:nowrap;text-overflow: ellipsis;`
                 },
                 [
                     SYD_VAR.p1CAText.get()

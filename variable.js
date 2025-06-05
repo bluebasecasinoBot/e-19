@@ -2,7 +2,7 @@ import { __sS, SYD_VAR, SYD_VAR_constructor } from "./sydneyDom_v3.js";
 
 SYD_VAR.mainClr = new SYD_VAR_constructor({value:"#0e1318"});
 
-SYD_VAR.page1MainFont_1 = new SYD_VAR_constructor({value:"40px"});
+SYD_VAR.page1MainFont_1 = new SYD_VAR_constructor({value:"60px"});
 
 SYD_VAR.p1CAText = new SYD_VAR_constructor({value:"GD8nFZrqEaXkNzPJAmA4ULjMmftoVfBfoGduWGEFpump"})
 

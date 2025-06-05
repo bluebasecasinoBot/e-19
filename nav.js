@@ -148,8 +148,8 @@ __SYD.desktopNav_button_x = () =>{
             class:"clickButton"
         },
         [
-            __SYD.iconify_30px({attr:'fa-brands fa-x-twitter' , clr :' #ffffff ' , inject:"padding:10px;border-radius:50%;background:#000;"}),
-            __c("p" , {style:"width:fit-content;padding:0 20px;font-weight:900;font-size:20px;"},["Follow"])
+            __SYD.iconify_50px({attr:'fa-brands fa-x-twitter' , clr :' #ffffff ' , inject:"padding:10px;border-radius:50%;background:#000;"}),
+            __c("p" , {style:"width:fit-content;padding:0 20px;font-weight:900;font-size:40px;"},["Follow"])
         ],
         {
             events:{
@@ -169,8 +169,8 @@ __SYD.desktopNav_button_tg = () =>{
             class:"clickButton"
         },
         [
-            __SYD.iconify_30px({attr:'fa-solid fa-paper-plane' , clr :' #ffffff ' , inject:"padding:10px;border-radius:50%;background:#1597cb;"}),
-            __c("p" , {style:"width:fit-content;padding:0 20px;font-weight:900;font-size:20px;color:#fff;"},["Telegram"])
+            __SYD.iconify_50px({attr:'fa-solid fa-paper-plane' , clr :' #ffffff ' , inject:"padding:10px;border-radius:50%;background:#1597cb;"}),
+            __c("p" , {style:"width:fit-content;padding:0 20px;font-weight:900;font-size:40px;color:#fff;"},["Telegram"])
         ],
         {
             events:{
