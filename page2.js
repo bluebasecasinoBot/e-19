@@ -35,7 +35,7 @@ __SYD.p2SubHeader = () =>{
             __c(
                 "div",
                 {
-                    style:`height:700px;width:50%;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/about.png")`
+                    style:`height:700px;width:50%;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/p3_main.png")`
                 },[],{genericStyle:["bg_cover"]}
             )
         ],
@@ -109,7 +109,7 @@ __SYD.p2_text3 = () =>{
         [
             __c(
                 "p",
-                {},["Furie’s Book of Memes ($FBOM) is a wild, on-chain tribute to internet culture—combining the raw chaos of meme coins with the legendary artistry of Matt Furie. Inspired by characters like Pepe, Brett, and Boochie, $FBOM turns every holder into a co-author of the ultimate digital meme anthology. Built on Ethereum, it's secure, eternal, and ready to explode across the memeverse."]
+                {},["E-91 isn’t just another meme coin — it’s a compound of curiosity, chaos, and crypto culture. Born in the shadowy corners of the decentralized lab, E-91 is the first and only extract derived from pure internet energy. Packaged in its signature capsule, E-91 symbolizes rebellion against stale finance and the bland world of utility-maxed tokens."]
             )
         ]
     )
@@ -124,7 +124,7 @@ __SYD.p2_text4 = () =>{
         [
             __c(
                 "p",
-                {},["This is more than a token—it's a cultural movement. $FBOM thrives on viral community energy, TikTok raids, X threads, and collective creativity. Whether you’re a degen, artist, or meme historian, this is your chance to etch your humor into Ethereum’s ledger and help write the internet’s greatest meme book."]
+                {},["E-91 embraces the absurd — no roadmap, no promises, just vibes. But behind the memes lies a tight-knit community pushing the boundaries of what a meme coin can be. Fueled by dark humor, digital alchemy, and a dash of degeneracy, E-91 is here to leave its mark on the blockchain, one dose at a time."]
             )
         ]
     )

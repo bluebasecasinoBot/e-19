@@ -26,7 +26,7 @@ __SYD.p3SubHeader = () =>{
             __c(
                 "div",
                 {
-                    style:`height:100%;width:50%;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/p3_main.png")`
+                    style:`height:100%;width:50%;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/about.png")`
                 },[],{genericStyle:["bg_fit"]}
             ),
             __c(
@@ -76,6 +76,7 @@ __SYD.p3_tab = () =>{
                 [   
                     __SYD.p3_text3(),
                     __SYD.p3_text4(),
+                    __SYD.p3_text5()
                 ]
             )
 
@@ -93,7 +94,7 @@ __SYD.p3_text2 = () =>{
         [
             __c(
                 "p",
-                {},["about Extractor-91"]
+                {},["💊 The Origins of E-91"]
             )
         ]
     )
@@ -108,7 +109,7 @@ __SYD.p3_text3 = () =>{
         [
             __c(
                 "p",
-                {},["Furie’s Book of Memes ($FBOM) is a wild, on-chain tribute to internet culture—combining the raw chaos of meme coins with the legendary artistry of Matt Furie. Inspired by characters like Pepe, Brett, and Boochie, $FBOM turns every holder into a co-author of the ultimate digital meme anthology. Built on Ethereum, it's secure, eternal, and ready to explode across the memeverse."]
+                {},["Long before charts and chains, before memes and markets, there were whispers. Deep within the cryptographic catacombs of the decentralized realm, hidden beneath abandoned protocols and forgotten forks, a relic pulsed with untapped energy."]
             )
         ]
     )
@@ -123,7 +124,22 @@ __SYD.p3_text4 = () =>{
         [
             __c(
                 "p",
-                {},["This is more than a token—it's a cultural movement. $FBOM thrives on viral community energy, TikTok raids, X threads, and collective creativity. Whether you’re a degen, artist, or meme historian, this is your chance to etch your humor into Ethereum’s ledger and help write the internet’s greatest meme book."]
+                {},["No one knows who built the Vault. Some say it was forged by the first generation of chainwalkers — crypto-mystics who encoded belief into bytecode. Others claim it emerged on its own, an echo of internet consciousness seeking form. But all agree on one thing: E-91 was never launched — it was discovered."]
+            )
+        ]
+    )
+}
+
+__SYD.p3_text5 = () =>{
+    return __c(
+        "div",
+        {
+            style:SYD_VAR.page2Text3.get() + "font-weight:900;color:#ffffff;font-size:20px;"
+        },
+        [
+            __c(
+                "p",
+                {},["In silence, the cloaked ones gathered. Not investors. Not developers. Believers. Drawn by the signal.The capsule stood in the center of the ancient digital cathedral, glowing with impossible potential — half data, half divinity."]
             )
         ]
     )

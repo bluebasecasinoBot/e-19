@@ -74,9 +74,9 @@ __SYD.p4_tab = () =>{
                     style:"height:fit-content;width:100%;display:flex;gap:30px;padding:10px 0px;flex-direction:column;"
                 },
                 [   
-                    __SYD.p4_tab_el({title:"title text" , contents:["content 1" , "content 2"]}),
-                    __SYD.p4_tab_el({title:"title text" , contents:["content 1" , "content 2"]}),
-                    __SYD.p4_tab_el({title:"title text" , contents:["content 1" , "content 2"]})
+                    __SYD.p4_tab_el({title:"Tokenomics: Dosed for Degens" , contents:["Supply isn’t infinite — but the vibes are." , "91,000,000 total capsules, no more, no less. Minted once. Never touched again."]}),
+                    __SYD.p4_tab_el({title:"No Taxes. No Traps. Just Transmission." , contents:["0% buy. 0% sell. Pure signal, unfiltered." , "The only thing you pay is attention."]}),
+                    __SYD.p4_tab_el({title:"Liquidity Locked. Chaos Unleashed." , contents:["LP sealed in the Vault — forever." , "No rug. No rescue. Just raw, radioactive freedom."]})
                 ]
             )
 
